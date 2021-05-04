@@ -310,7 +310,7 @@ h2{
 
 
 /* mobile view */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
 
     /* parallax mobile change to static  */
     .pimg1, .pimg2, .pimg3{
@@ -342,7 +342,7 @@ h2{
 }
 
 
-@media only screen and (min-width:800px){
+@media only screen and (min-width:1200px){
 
     /* timeline desktop start*/
     .timeline::before{
