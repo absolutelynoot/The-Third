@@ -289,17 +289,17 @@ h2{
 .img-6{
     grid-area: img-6;
     min-height: 51.5rem;
-    background-image: url("../images/img5.jpg");
+    background-image: url("../images/img6.jpg");
 }
 
 .img-7{
     grid-area: img-7;
-    background-image: url("../images/img5.jpg");
+    background-image: url("../images/img7.jpg");
 }
 
 .img-8{
     grid-area: img-8;
-    background-image: url("../images/img5.jpg");
+    background-image: url("../images/img8.jpg");
 }
 
 /* Gallery end */
