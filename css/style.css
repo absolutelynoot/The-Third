@@ -141,7 +141,7 @@ body {
 
 .navbar{
     width: 100%;
-    height: 60px;
+    height: 80px;
     top: 0;
     z-index:1;
     display: flex;
@@ -154,6 +154,7 @@ nav{
     flex: 1;
     text-align: center;
     height: 30px;
+    font-size: 20px;
     list-style: none;
 }
 
@@ -419,7 +420,7 @@ h2{
 
 
 /* mobile view */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 800px){
 
     /* parallax mobile change to static  */
     .pimg1, .pimg2, .pimg3{
@@ -448,8 +449,19 @@ h2{
 
     /* image gallery end */
 
-    
-    
+    .navbar{
+        width: 100%;
+        height: 60px;
+    }
+
+    nav{
+        flex: 1;
+        text-align: center;
+        height: 30px;
+        font-size: 16px;
+        list-style: none;
+    }
+        
 }
 
 /* desktop view */
