@@ -34,7 +34,7 @@ body {
     display: flex;
     align-items: center;
     position:fixed;
-    background: rgba(235, 235, 235, 0.7);
+    background: rgba(235, 235, 235, 0.8);
 }
 
 /* End initialize */
@@ -57,6 +57,7 @@ nav ul li{
 nav li a{
     text-decoration: none;
     color: black;
+    font-weight: 400px;
     border: 1px solid black;
     letter-spacing: 2px;
     padding: 5px 10px;
@@ -305,7 +306,7 @@ h2{
 /* Gallery end */
 
 /* view ports */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 800px){
     .image-gallery{
         grid-template-areas:
             'img-1 img-1 img-2 img-2'
