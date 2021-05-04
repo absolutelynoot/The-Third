@@ -306,7 +306,7 @@ h2{
 /* Gallery end */
 
 /* view ports */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
     .image-gallery{
         grid-template-areas:
             'img-1 img-1 img-2 img-2'
