@@ -293,6 +293,7 @@ h2{
     line-height: 30px;
     margin-bottom: 10px;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .timeline-content p{
